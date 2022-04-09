@@ -1,0 +1,31 @@
+{
+	"name": "@es-shims/all",
+	"version": "0.0.0",
+	"description": "All of the es-shims, auto-installed into the environment",
+	"main": "index.js",
+	"exports": {
+		".": "./index.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/es-shims/all.git"
+	},
+	"keywords": [
+		"es-shim",
+		"es-shims",
+		"es-shim API",
+		"polyfill",
+		"shim",
+		"prollyfill"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/es-shims/all/issues"
+	},
+	"homepage": "https://github.com/es-shims/all#readme"
+}
