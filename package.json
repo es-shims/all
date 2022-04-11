@@ -21,7 +21,9 @@
 		"prepublishOnly": "safe-publish-latest && npm run build",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"find-dupes": "npm ls --all --omit=dev --parseable | xargs -L1 sh -c 'basename $1' dummy | sort | uniq -c | grep -v \"^ *1 \" | sort -rn",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"pretests-only": "npm run build",
+		"tests-only": "test262-harness -t \"$(node -pe 'os.cpus().length - 1')\" --prelude=./browser.js --hostArgs='--unhandled-rejections=none' --preprocessor=./test/preprocessor.js --test262Dir=node_modules/test262 'node_modules/test262/test/built-ins/**/*.js'",
+		"test": "npm run tests-only"
 	},
 	"repository": {
 		"type": "git",
@@ -134,6 +136,8 @@
 		"browserify": "^17.0.0",
 		"in-publish": "^2.0.1",
 		"safe-publish-latest": "^2.0.0",
+		"test262": "github:tc39/test262",
+		"test262-harness": "^9.0.0",
 		"tinyify": "^3.0.0"
 	}
 }
