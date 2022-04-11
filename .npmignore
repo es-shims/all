@@ -108,5 +108,4 @@ npm-shrinkwrap.json
 package-lock.json
 yarn.lock
 
-# build
-browser.js
+.github/workflows
