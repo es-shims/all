@@ -111,4 +111,8 @@ yarn.lock
 # build
 browser.js
 
+# deps calculations
+deps.js
+paths.json
+
 .npmignore
