@@ -110,3 +110,5 @@ yarn.lock
 
 # build
 browser.js
+
+.npmignore
