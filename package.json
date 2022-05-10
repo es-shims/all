@@ -25,9 +25,12 @@
 		"prepublishOnly": "safe-publish-latest && npm run build",
 		"prepublish": "not-in-publish || npm run prepublishOnly",
 		"find-dupes": "npm ls --all --omit=dev --parseable | xargs -L1 sh -c 'basename $1' dummy | sort | uniq -c | grep -v \"^ *1 \" | sort -rn",
+		"lint": "eslint --ext=js,mjs .",
+		"pretest": "npm run lint",
 		"pretests-only": "npm run build",
 		"tests-only": "test262-harness -t \"$(node -pe 'os.cpus().length - 1')\" --prelude=./browser.js --hostArgs='--unhandled-rejections=none' --preprocessor=./test/preprocessor.js --test262Dir=node_modules/test262 'node_modules/test262/test/built-ins/**/*.js'",
-		"test": "npm run tests-only"
+		"test": "npm run tests-only",
+		"posttest": "aud --production"
 	},
 	"repository": {
 		"type": "git",
@@ -138,10 +141,13 @@
 	},
 	"devDependencies": {
 		"@frida/uglifyify": "^7.0.1",
+		"@ljharb/eslint-config": "^21.0.0",
+		"aud": "^2.0.0",
 		"browserify": "^17.0.0",
 		"bundle-collapser": "^1.4.0",
 		"common-shakeify": "^0.6.2",
 		"envify": "^4.1.0",
+		"eslint": "=8.8.0",
 		"in-publish": "^2.0.1",
 		"module-deps": "^6.2.3",
 		"npmignore": "^0.3.0",

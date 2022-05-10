@@ -1,0 +1,27 @@
+{
+	"root": true,
+
+	"extends": "@ljharb",
+
+	"ignorePatterns": [
+		"browser.js",
+	],
+
+	"rules": {
+		"func-style": "off",
+	},
+
+	"overrides": [
+		{
+			"files": "deps.js",
+			"extends": "@ljharb/eslint-config/node/16",
+		},
+		{
+			"files": "test/**",
+			"rules": {
+				"complexity": "off",
+				"max-lines-per-function": "off",
+			},
+		},
+	],
+}
