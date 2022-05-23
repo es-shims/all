@@ -17,6 +17,16 @@
 			"extends": "@ljharb/eslint-config/node/16",
 		},
 		{
+			"files": "test/preprocessor.js",
+			"rules": {
+				"new-cap": ["error", {
+					"capIsNewExceptions": [
+						"TODO",
+					],
+				}],
+			},
+		},
+		{
 			"files": "test/**",
 			"rules": {
 				"complexity": "off",
