@@ -34,6 +34,7 @@ require('array.prototype.tosorted/auto');
 require('array.prototype.tospliced/auto');
 require('array.prototype.values/auto');
 require('array.prototype.with/auto');
+require('date/auto');
 require('error-cause/auto');
 require('es-aggregate-error/auto');
 require('es-string-html-methods/auto');
