@@ -82,18 +82,7 @@ module.exports = function (test) {
 		if (
 			test.attrs.features
 			&& (
-				TODO(test.attrs.features.indexOf('Reflect.construct') > -1) // TODO: investigate using Function.call in parseInt shim
-				|| test.attrs.features.indexOf('resizable-arraybuffer') > -1
-				|| test.attrs.features.indexOf('regexp-unicode-property-escapes') > -1
-				|| test.attrs.features.indexOf('regexp-named-groups') > -1
-				|| test.attrs.features.indexOf('cross-realm') > -1
-				|| test.attrs.features.indexOf('TypedArray') > -1
-				|| test.attrs.features.indexOf('Temporal') > -1
-				|| test.attrs.features.indexOf('Atomics') > -1
-				|| test.attrs.features.indexOf('ShadowRealm') > -1
-				|| test.attrs.features.indexOf('Proxy') > -1
-				|| test.attrs.features.indexOf('FinalizationRegistry') > -1
-				|| test.attrs.features.indexOf('WeakRef') > -1
+				TODO(test.attrs.features.indexOf('Reflect.construct') > -1) // TODO: investigate using Function.call in parseInt
 				|| hasUnsupportedAttrs(test)
 			)
 		) {
