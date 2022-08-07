@@ -43,6 +43,7 @@ module.exports = function (test) {
 				|| test.attrs.esid === 'sec-decodeuri-encodeduri'
 				|| test.attrs.esid === 'sec-decodeuricomponent-encodeduricomponent'
 				|| test.attrs.esid === 'sec-invariants-of-the-essential-internal-methods'
+				|| test.attrs.esid === 'sec-asyncgenerator-prototype-return'
 			)
 		) {
 			return null;
