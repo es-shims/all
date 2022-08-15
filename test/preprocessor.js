@@ -14,11 +14,11 @@ function TODO(condition) {
 function hasUnsupportedAttrs(test) {
 	if (typeof Symbol !== 'function') {
 		if (
-			test.attrs.features.indexOf('Symbol')
-			|| (typeof Symbol.species !== 'symbol' && test.attrs.features.indexOf('Symbol.species'))
-			|| (typeof Symbol.unscopables !== 'symbol' && test.attrs.features.indexOf('Symbol.unscopables'))
-			|| (typeof Symbol.iterator !== 'symbol' && test.attrs.features.indexOf('Symbol.iterator'))
-			|| (typeof Symbol.toStringTag !== 'symbol' && test.attrs.features.indexOf('Symbol.toStringTag'))
+			test.attrs.features.indexOf('Symbol') > -1
+			|| (typeof Symbol.species !== 'symbol' && test.attrs.features.indexOf('Symbol.species') > -1)
+			|| (typeof Symbol.unscopables !== 'symbol' && test.attrs.features.indexOf('Symbol.unscopables') > -1)
+			|| (typeof Symbol.iterator !== 'symbol' && test.attrs.features.indexOf('Symbol.iterator') > -1)
+			|| (typeof Symbol.toStringTag !== 'symbol' && test.attrs.features.indexOf('Symbol.toStringTag') > -1)
 		) {
 			return true;
 		}
