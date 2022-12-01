@@ -28,7 +28,7 @@
 		"lint": "eslint --ext=js,mjs .",
 		"pretest": "npm run lint",
 		"pretests-only": "npm run build",
-		"tests-only": "test262-harness -t \"$(node -pe 'os.cpus().length - 1')\" --prelude=./browser.js --host-args='--unhandled-rejections=none' --features-exclude='resizable-arraybuffer,regexp-unicode-property-escapes,regexp-named-groups,regexp-v-flag,cross-realm,TypedArray,Temporal,Atomics,ShadowRealm,Proxy,FinalizationRegistry,WeakRef' --preprocessor=./test/preprocessor.js --test262-dir=node_modules/test262 'node_modules/test262/test/built-ins/**/*.js'",
+		"tests-only": "test262-harness -t \"$(node -pe 'os.cpus().length - 1')\" --prelude=./browser.js --host-args='--unhandled-rejections=none' --features-exclude='resizable-arraybuffer,regexp-unicode-property-escapes,regexp-named-groups,regexp-v-flag,cross-realm,TypedArray,Temporal,Atomics,ShadowRealm,Proxy,FinalizationRegistry,WeakRef,symbols-as-weakmap-keys,regexp-duplicate-named-groups' --preprocessor=./test/preprocessor.js --test262-dir=node_modules/test262 'node_modules/test262/test/built-ins/**/*.js'",
 		"test": "npm run tests-only",
 		"posttest": "aud --production"
 	},
