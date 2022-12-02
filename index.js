@@ -3,6 +3,9 @@
 require('es5-shim');
 require('es6-shim');
 
+require('es-map/auto');
+require('es-set/auto');
+
 require('array-includes/auto');
 require('array.from/auto');
 require('array.of/auto');
