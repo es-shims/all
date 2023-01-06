@@ -159,7 +159,7 @@
 	},
 	"devDependencies": {
 		"@frida/uglifyify": "^7.0.1",
-		"@ljharb/eslint-config": "^21.0.0",
+		"@ljharb/eslint-config": "^21.0.1",
 		"aud": "^2.0.2",
 		"browserify": "^17.0.0",
 		"bundle-collapser": "^1.4.0",
