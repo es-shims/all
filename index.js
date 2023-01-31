@@ -106,4 +106,5 @@ require('string.prototype.trimleft/auto');
 require('string.prototype.trimright/auto');
 require('string.prototype.trimstart/auto');
 require('string.raw/auto');
+require('suppressed-error/auto');
 require('symbol.prototype.description/auto');
