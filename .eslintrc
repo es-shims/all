@@ -9,6 +9,7 @@
 
 	"rules": {
 		"func-style": "off",
+		"global-require": "off",
 	},
 
 	"overrides": [

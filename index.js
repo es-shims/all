@@ -74,13 +74,9 @@ require('object.getprototypeof/auto');
 require('object.hasown/auto');
 require('object.values/auto');
 require('parseint/auto');
-require('promise.allsettled/auto');
-require('promise.any/auto');
-require('promise.prototype.finally/auto');
 require('reflect.apply/auto');
 require('reflect.getprototypeof/auto');
 require('reflect.ownkeys/auto');
-require('regexp.prototype.flags/auto');
 require('set.prototype.difference/auto');
 require('set.prototype.intersection/auto');
 require('set.prototype.isdisjointfrom/auto');
@@ -108,3 +104,15 @@ require('string.prototype.trimstart/auto');
 require('string.raw/auto');
 require('suppressed-error/auto');
 require('symbol.prototype.description/auto');
+
+require('es-iterator-helpers/auto');
+
+try {
+	require('arraybuffer.prototype.detached/auto');
+	require('promise.allsettled/auto');
+	require('promise.any/auto');
+	require('promise.prototype.finally/auto');
+	require('regexp.prototype.flags/auto');
+} catch (e) {
+	/* these shims should fail silently in a pre-ES5 env */
+}
