@@ -109,6 +109,7 @@ require('es-iterator-helpers/auto');
 
 try {
 	require('arraybuffer.prototype.detached/auto');
+	require('arraybuffer.prototype.transfer/auto');
 	require('promise.allsettled/auto');
 	require('promise.any/auto');
 	require('promise.prototype.finally/auto');
