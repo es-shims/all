@@ -148,6 +148,8 @@
 		"string.prototype.lastindexof": "^1.0.2",
 		"string.prototype.matchall": "^4.0.8",
 		"string.prototype.padend": "^3.1.4",
+		"string.prototype.padleft": "^2.0.0",
+		"string.prototype.padright": "^2.0.0",
 		"string.prototype.padstart": "^3.1.4",
 		"string.prototype.replaceall": "^1.0.7",
 		"string.prototype.split": "^1.0.7",

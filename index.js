@@ -91,6 +91,8 @@ require('string.prototype.iswellformed/auto');
 require('string.prototype.lastindexof/auto');
 require('string.prototype.matchall/auto');
 require('string.prototype.padend/auto');
+require('string.prototype.padleft/shim')();
+require('string.prototype.padright/shim')();
 require('string.prototype.padstart/auto');
 require('string.prototype.replaceall/auto');
 require('string.prototype.split/auto');
