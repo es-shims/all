@@ -90,6 +90,7 @@
 		"arraybuffer.prototype.transfer": "^1.0.2",
 		"arraybuffer.prototype.transfertofixedlength": "^1.0.0",
 		"date": "^2.0.2",
+		"disposablestack": "^1.0.0",
 		"error-cause": "^1.0.5",
 		"es-abstract": "^1.21.1",
 		"es-aggregate-error": "^1.0.9",

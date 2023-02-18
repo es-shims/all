@@ -105,6 +105,7 @@ require('string.prototype.trimright/auto');
 require('string.prototype.trimstart/auto');
 require('string.raw/auto');
 require('suppressed-error/auto');
+require('disposablestack/auto');
 require('symbol.prototype.description/auto');
 
 require('es-iterator-helpers/auto');
