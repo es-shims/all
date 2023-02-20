@@ -9,7 +9,7 @@ jobs:
       range: '>= 10'
       type: minors
       command: npm run tests-only
-      timeout-minutes: 90
+      timeout-minutes: 120
 
   node:
     name: 'node >= 10'
