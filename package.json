@@ -163,7 +163,8 @@
 		"string.prototype.trimstart": "^1.0.6",
 		"string.raw": "^1.0.6",
 		"suppressed-error": "^1.0.0",
-		"symbol.prototype.description": "^1.0.5"
+		"symbol.prototype.description": "^1.0.5",
+		"well-known-symbols": "^4.0.0"
 	},
 	"devDependencies": {
 		"@browserify/envify": "^6.0.0",

@@ -3,6 +3,8 @@
 require('es5-shim');
 require('es6-shim');
 
+require('well-known-symbols/auto');
+
 require('es-map/auto');
 require('es-set/auto');
 
