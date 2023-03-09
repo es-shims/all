@@ -52,7 +52,7 @@
 	"homepage": "https://github.com/es-shims/all#readme",
 	"dependencies": {
 		"array-includes": "^3.1.6",
-		"array.from": "^1.1.3",
+		"array.from": "^1.1.4",
 		"array.of": "^1.0.1",
 		"array.prototype.at": "^1.1.1",
 		"array.prototype.concat": "^1.0.3",
