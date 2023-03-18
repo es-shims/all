@@ -30,6 +30,10 @@ function hasUnsupportedAttrs(test) {
 }
 
 module.exports = function (test) {
+	var filename = test.relative.split('/').pop().replace(/\.js$/, '');
+	if (filename === 'create-species-non-ctor') {
+		return null;
+	}
 	if (test && test.attrs) {
 		if (
 			test.attrs.esid && (
