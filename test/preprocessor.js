@@ -69,8 +69,11 @@ module.exports = function (test) {
 		}
 
 		if (
-			test.attrs.description
-			&& TODO(test.attrs.description.startsWith('Checking parseInt.prototype'))
+			TODO(test.attrs.es5id === '15.10.6.4_A7') // RegExp.prototype.toString can have either an undefined prototype OR throw when `new`ed, not both
+			|| (
+				test.attrs.description
+				&& TODO(test.attrs.description.startsWith('Checking parseInt.prototype'))
+			)
 		) { // TODO: investigate using Function.call in parseInt shim
 			return null;
 		}
