@@ -1,0 +1,63 @@
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-greater-than-total.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-less-than-total.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-tonumber-throws.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-equals-total.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-tonumber.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/drop/limit-rangeerror.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/get-next-method-only-once.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/get-return-method-throws.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/iterator-already-exhausted.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/get-next-method-throws.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/iterator-return-method-throws.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/non-callable-predicate.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/every/predicate-returns-truthy.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/filter/iterator-already-exhausted.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/filter/iterator-return-method-throws.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/filter/non-callable-predicate.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/filter/predicate-filters.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/Iterator/prototype/find/find.js (strict mode)
+  Expected no error, got TypeError: Cannot set property Test262Iterator of #<Object> which has only a getter
+
+FAIL node_modules/test262/test/built-ins/RegExp/prototype/Symbol.match/flags-tostring-error.js (default, strict mode)
+  Expected a CustomError but got a Test262Error
+
+FAIL node_modules/test262/test/built-ins/RegExp/prototype/Symbol.match/get-flags-err.js (default, strict mode)
+  Expected a CustomError but got a Test262Error
+
+FAIL node_modules/test262/test/built-ins/RegExp/prototype/Symbol.match/get-unicode-error.js (default, strict mode)
+  Expected a Test262Error to be thrown but no exception was thrown at all
+

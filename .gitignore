@@ -116,3 +116,5 @@ deps.js
 paths.json
 
 .npmignore
+
+test.out
