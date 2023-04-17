@@ -8,7 +8,7 @@ jobs:
     with:
       range: '>= 10'
       type: minors
-      command: npm run tests-only
+      command: npm run test-failures && git diff --exit-code
       timeout-minutes: 120
 
   node:

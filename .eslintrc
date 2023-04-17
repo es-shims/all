@@ -35,7 +35,10 @@
 			},
 		},
 		{
-			"files": "test/format-output.js",
+			"files": [
+				"test/format-output.js",
+				"test/harness.js",
+			],
 			"extends": "@ljharb/eslint-config/node/10",
 		},
 	],

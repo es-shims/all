@@ -49,7 +49,7 @@ new Promise((resolve) => { rl.on('close', resolve); }).then(() => {
 
 		Object.entries(modesByMessage).forEach(([message, modes]) => {
 			console.log(`FAIL ${path} (${modes.join(', ')})`);
-			console.log(message);
+			console.log(message.replace(process.execPath, 'node'));
 			console.log('');
 		});
 	});

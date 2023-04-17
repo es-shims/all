@@ -1,3 +1,6 @@
+FAIL node_modules/test262/test/built-ins/Object/prototype/toString/symbol-tag-non-str-builtin.js (default, strict mode)
+  Expected SameValue(«[object Iterator]», «[object Object]») to be true
+
 FAIL node_modules/test262/test/built-ins/RegExp/prototype/Symbol.match/flags-tostring-error.js (default, strict mode)
   Expected a CustomError but got a Test262Error
 
