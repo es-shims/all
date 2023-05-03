@@ -145,7 +145,7 @@
 		"set.prototype.issupersetof": "^1.0.2",
 		"set.prototype.symmetricdifference": "^1.0.2",
 		"set.prototype.union": "^1.0.2",
-		"string.fromcodepoint": "^1.0.0",
+		"string.fromcodepoint": "^1.0.1",
 		"string.prototype.at": "^1.0.4",
 		"string.prototype.iswellformed": "^1.0.0",
 		"string.prototype.lastindexof": "^1.0.2",
