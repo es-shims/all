@@ -54,6 +54,7 @@ require('math.acosh/auto');
 require('math.atanh/auto');
 require('math.cbrt/auto');
 require('math.clz32/auto');
+require('math.f16round/auto');
 require('math.fround/auto');
 require('math.imul/auto');
 require('math.log10/auto');
@@ -111,6 +112,7 @@ require('disposablestack/auto');
 require('symbol.prototype.description/auto');
 
 require('es-iterator-helpers/auto');
+require('es-constants/auto');
 
 try {
 	require('arraybuffer.prototype.detached/auto');
