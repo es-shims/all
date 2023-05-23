@@ -4114,10 +4114,10 @@ FAIL node_modules/test262/test/built-ins/Set/prototype/entries/does-not-have-set
 FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-boolean.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-null.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-number.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-number.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-null.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/Set/prototype/entries/this-not-object-throw-string.js (default, strict mode)
