@@ -1378,10 +1378,10 @@ FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-168.js
 FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-169.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-170.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-17.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-17.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-170.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-172.js (default, strict mode)
@@ -4630,10 +4630,10 @@ FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/this-not-object-t
 FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/this-not-object-throw-symbol.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/this-not-object-throw-undefined.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/throw-if-key-cannot-be-held-weakly.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/throw-if-key-cannot-be-held-weakly.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/WeakMap/prototype/set/this-not-object-throw-undefined.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/add/does-not-have-weaksetdata-internal-slot-array.js (default, strict mode)
@@ -4672,10 +4672,10 @@ FAIL node_modules/test262/test/built-ins/WeakSet/prototype/add/this-not-object-t
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/add/throw-when-value-cannot-be-held-weakly.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/does-not-have-weaksetdata-internal-slot-array.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/does-not-have-weaksetdata-internal-slot-map.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/does-not-have-weaksetdata-internal-slot-map.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/does-not-have-weaksetdata-internal-slot-array.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/does-not-have-weaksetdata-internal-slot-object.js (default, strict mode)
