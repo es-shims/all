@@ -787,10 +787,10 @@ FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-10.js (default, st
 FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-2.js (default, strict mode)
   Expected a SyntaxError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-3.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-4.js (default, strict mode)
   Expected a SyntaxError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-4.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-3.js (default, strict mode)
   Expected a SyntaxError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/JSON/parse/15.12.2-2-5.js (default, strict mode)
