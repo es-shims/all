@@ -1486,10 +1486,10 @@ FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-338.js
 FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-1.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-3.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-2.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-2.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-3.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/Object/defineProperty/15.2.3.6-4-339-4.js (default, strict mode)
