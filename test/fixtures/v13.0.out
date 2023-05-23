@@ -2716,10 +2716,10 @@ FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5
 FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-4.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-6.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-5.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
-FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-5.js (default, strict mode)
+FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-6.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/Array/prototype/reduceRight/15.4.4.22-5-7.js (default, strict mode)
