@@ -97,7 +97,7 @@
 		"es-abstract": "^1.21.2",
 		"es-aggregate-error": "^1.0.9",
 		"es-constants": "^1.0.0",
-		"es-iterator-helpers": "^1.0.5",
+		"es-iterator-helpers": "^1.0.11",
 		"es-map": "^1.0.4",
 		"es-set": "^1.1.0",
 		"es-string-html-methods": "^1.0.1",
