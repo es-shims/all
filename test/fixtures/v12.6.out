@@ -5053,13 +5053,13 @@ FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/this-not-objec
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/delete/this-not-object-throw-undefined.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
+FAIL node_modules/test262/test/built-ins/WeakSet/prototype/has/does-not-have-weaksetdata-internal-slot-array.js (default, strict mode)
+  Expected a TypeError but got a different error constructor with the same name
+
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/has/does-not-have-weaksetdata-internal-slot-map.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/has/does-not-have-weaksetdata-internal-slot-object.js (default, strict mode)
-  Expected a TypeError but got a different error constructor with the same name
-
-FAIL node_modules/test262/test/built-ins/WeakSet/prototype/has/does-not-have-weaksetdata-internal-slot-array.js (default, strict mode)
   Expected a TypeError but got a different error constructor with the same name
 
 FAIL node_modules/test262/test/built-ins/WeakSet/prototype/has/does-not-have-weaksetdata-internal-slot-set.js (default, strict mode)
